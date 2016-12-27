@@ -1,3 +1,39 @@
+
+
+
+```
+PS E:\projects\react\starterkits\reactGo> yarn run dev
+yarn run v0.18.1
+$ cross-env NODE_ENV=development nodemon
+[nodemon] 1.11.0
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching: E:\projects\react\starterkits\reactGo\app\utils/**/* app/server.jsx app/routes.jsx E:\projects\react\starterkits\reactGo\server/**/* webpack/webpack.config.dev-client.js webpack/webpack.config.dev-server.js .stylelintrc
+[nodemon] starting `npm run build:dev && node compiled/server.dev.js`
+
+> react-webpack-node@2.1.0 build:dev E:\projects\react\starterkits\reactGo
+> cross-env NODE_ENV=development webpack ---debug --colors --display-error-details --config ./webpack/webpack.config.dev-server.js
+
+Hash: 26a28b7347a8fc0252a7
+Version: webpack 1.14.0
+Time: 5203ms
+            Asset     Size  Chunks             Chunk Names
+    server.dev.js   876 kB       0  [emitted]  server
+server.dev.js.map  1.01 MB       0  [emitted]  server
+    + 309 hidden modules
+--------------------------
+===> �  Starting Server . . .
+===>  Environment: development
+===>  Listening on port: 3000
+===>  Using DB TYPE: MONGO
+--------------------------
+===>  Succeeded in connecting to mongodb://localhost/ReactWebpackNode
+webpack building...
+webpack built 4020249d06c98d3d9301 in 4342ms
+(node:20344) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+```
+
+
+
 # reactGo
 
 [![Dependency Status][dep-status-img]][dep-status-link] [![devDependency Status][dev-dep-status-img]][dev-dep-status-link]
